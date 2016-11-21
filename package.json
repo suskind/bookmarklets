@@ -1,0 +1,24 @@
+{
+  "name": "bookmarklets",
+  "version": "1.0.0",
+  "description": "Bookmarlets collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suskind/bookmarklets.git"
+  },
+  "author": "Claudio Gamboa <gamboa@pdvel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suskind/bookmarklets/issues"
+  },
+  "homepage": "https://github.com/suskind/bookmarklets#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.4"
+  }
+}

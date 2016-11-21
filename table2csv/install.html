@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>...</title>
+</head>
+<body>
+
+<h1>Table2CSV</h1>
+
+<a href='javascript:void(!function(){Array.prototype.slice.apply(document.querySelectorAll("table"),null).forEach(function(e,r){var l,t="",o=e.querySelector("thead");l=o?o.querySelectorAll("th"):e.querySelectorAll("th");var n=[];l.length>0&&(Array.prototype.slice.apply(l,null).forEach(function(e){n.push('"'+e.textContent.replace(/\n/gi,"").replace(/\s\s+/gi," ").trim().replace(/\"/gi,'"')+'"')}),t+=n.join(","),t+="\n");var c=!1;Array.prototype.slice.apply(e.querySelectorAll("tr"),null).forEach(function(e){if(e){c=!1,n=[];var r=e.querySelectorAll("td");Array.prototype.slice.apply(r,null).forEach(function(e,r){c=!0,n.push('"'+e.textContent.replace(/\n/gi,"").replace(/\s\s+/gi," ").trim().replace(/\"/gi,'"')+'"')}),c&&(t+=n.join(",")+"\n")}});var p=window.open("table_"+r);p&&(p.document.open(),p.document.write("<pre>"+t+"</pre>"),p.document.close())})}();)' onclick="return false;">Add to bookmarks</a>
+
+</body>
+</html>
